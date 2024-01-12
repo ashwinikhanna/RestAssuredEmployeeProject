@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-01-12T12:34:00 AEDT" name="Suite1" finished-at="2024-01-12T12:35:12 AEDT" duration-ms="71582">
+    <groups>
+    </groups>
+    <test started-at="2024-01-12T12:34:00 AEDT" name="Regression1" finished-at="2024-01-12T12:35:12 AEDT" duration-ms="71582">
+      <class name="com.employeepi.testcases.TC003_PostEmployee">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeepi.testcases.TC003_PostEmployee@6c4906d3]" started-at="2024-01-12T12:34:28 AEDT" name="setup" finished-at="2024-01-12T12:34:28 AEDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="prerequitistePostEmployee()[pri:0, instance:com.employeepi.testcases.TC003_PostEmployee@6c4906d3]" started-at="2024-01-12T12:34:28 AEDT" name="prerequitistePostEmployee" finished-at="2024-01-12T12:34:33 AEDT" duration-ms="5008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequitistePostEmployee -->
+        <test-method is-config="true" signature="waitMethod()[pri:0, instance:com.employeepi.testcases.TC003_PostEmployee@6c4906d3]" started-at="2024-01-12T12:34:33 AEDT" name="waitMethod" finished-at="2024-01-12T12:34:35 AEDT" duration-ms="2114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitMethod -->
+        <test-method signature="checkResponseCode()[pri:1, instance:com.employeepi.testcases.TC003_PostEmployee@6c4906d3]" started-at="2024-01-12T12:34:35 AEDT" name="checkResponseCode" finished-at="2024-01-12T12:34:35 AEDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseCode -->
+        <test-method is-config="true" signature="waitMethod()[pri:0, instance:com.employeepi.testcases.TC003_PostEmployee@6c4906d3]" started-at="2024-01-12T12:34:35 AEDT" name="waitMethod" finished-at="2024-01-12T12:34:37 AEDT" duration-ms="2111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitMethod -->
+        <test-method signature="logAll()[pri:2, instance:com.employeepi.testcases.TC003_PostEmployee@6c4906d3]" started-at="2024-01-12T12:34:37 AEDT" name="logAll" finished-at="2024-01-12T12:34:38 AEDT" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logAll -->
+        <test-method is-config="true" signature="waitMethod()[pri:0, instance:com.employeepi.testcases.TC003_PostEmployee@6c4906d3]" started-at="2024-01-12T12:34:38 AEDT" name="waitMethod" finished-at="2024-01-12T12:34:40 AEDT" duration-ms="2103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitMethod -->
+        <test-method signature="verifyRecordSuccessfullyAdded()[pri:3, instance:com.employeepi.testcases.TC003_PostEmployee@6c4906d3]" started-at="2024-01-12T12:34:40 AEDT" name="verifyRecordSuccessfullyAdded" finished-at="2024-01-12T12:34:40 AEDT" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRecordSuccessfullyAdded -->
+      </class> <!-- com.employeepi.testcases.TC003_PostEmployee -->
+      <class name="com.employeepi.testcases.TC001_GetAllEmployees">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeepi.testcases.TC001_GetAllEmployees@2a693f59]" started-at="2024-01-12T12:34:00 AEDT" name="setup" finished-at="2024-01-12T12:34:00 AEDT" duration-ms="114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="preRequisiteGetAllEmployees()[pri:0, instance:com.employeepi.testcases.TC001_GetAllEmployees@2a693f59]" started-at="2024-01-12T12:34:00 AEDT" name="preRequisiteGetAllEmployees" finished-at="2024-01-12T12:34:04 AEDT" duration-ms="3862" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preRequisiteGetAllEmployees -->
+        <test-method is-config="true" signature="waitMethod()[pri:0, instance:com.employeepi.testcases.TC001_GetAllEmployees@2a693f59]" started-at="2024-01-12T12:34:04 AEDT" name="waitMethod" finished-at="2024-01-12T12:34:06 AEDT" duration-ms="2114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitMethod -->
+        <test-method signature="checkResponseBody()[pri:1, instance:com.employeepi.testcases.TC001_GetAllEmployees@2a693f59]" started-at="2024-01-12T12:34:06 AEDT" name="checkResponseBody" finished-at="2024-01-12T12:34:07 AEDT" duration-ms="212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method is-config="true" signature="waitMethod()[pri:0, instance:com.employeepi.testcases.TC001_GetAllEmployees@2a693f59]" started-at="2024-01-12T12:34:07 AEDT" name="waitMethod" finished-at="2024-01-12T12:34:09 AEDT" duration-ms="2105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitMethod -->
+        <test-method signature="checkStatusCode()[pri:2, instance:com.employeepi.testcases.TC001_GetAllEmployees@2a693f59]" started-at="2024-01-12T12:34:09 AEDT" name="checkStatusCode" finished-at="2024-01-12T12:34:09 AEDT" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method is-config="true" signature="waitMethod()[pri:0, instance:com.employeepi.testcases.TC001_GetAllEmployees@2a693f59]" started-at="2024-01-12T12:34:09 AEDT" name="waitMethod" finished-at="2024-01-12T12:34:11 AEDT" duration-ms="2103" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitMethod -->
+        <test-method signature="checkResponseTime()[pri:3, instance:com.employeepi.testcases.TC001_GetAllEmployees@2a693f59]" started-at="2024-01-12T12:34:11 AEDT" name="checkResponseTime" finished-at="2024-01-12T12:34:11 AEDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+        <test-method is-config="true" signature="waitMethod()[pri:0, instance:com.employeepi.testcases.TC001_GetAllEmployees@2a693f59]" started-at="2024-01-12T12:34:11 AEDT" name="waitMethod" finished-at="2024-01-12T12:34:13 AEDT" duration-ms="2112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitMethod -->
+        <test-method signature="checkStatusLine()[pri:4, instance:com.employeepi.testcases.TC001_GetAllEmployees@2a693f59]" started-at="2024-01-12T12:34:13 AEDT" name="checkStatusLine" finished-at="2024-01-12T12:34:13 AEDT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusLine -->
+        <test-method is-config="true" signature="waitMethod()[pri:0, instance:com.employeepi.testcases.TC001_GetAllEmployees@2a693f59]" started-at="2024-01-12T12:34:13 AEDT" name="waitMethod" finished-at="2024-01-12T12:34:15 AEDT" duration-ms="2104" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitMethod -->
+        <test-method signature="checkServerType()[pri:5, instance:com.employeepi.testcases.TC001_GetAllEmployees@2a693f59]" started-at="2024-01-12T12:34:15 AEDT" name="checkServerType" finished-at="2024-01-12T12:34:15 AEDT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkServerType -->
+        <test-method is-config="true" signature="waitMethod()[pri:0, instance:com.employeepi.testcases.TC001_GetAllEmployees@2a693f59]" started-at="2024-01-12T12:34:15 AEDT" name="waitMethod" finished-at="2024-01-12T12:34:17 AEDT" duration-ms="2106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitMethod -->
+        <test-method signature="checkContentEncoding()[pri:6, instance:com.employeepi.testcases.TC001_GetAllEmployees@2a693f59]" started-at="2024-01-12T12:34:17 AEDT" name="checkContentEncoding" finished-at="2024-01-12T12:34:17 AEDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentEncoding -->
+        <test-method is-config="true" signature="waitMethod()[pri:0, instance:com.employeepi.testcases.TC001_GetAllEmployees@2a693f59]" started-at="2024-01-12T12:34:17 AEDT" name="waitMethod" finished-at="2024-01-12T12:34:19 AEDT" duration-ms="2116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitMethod -->
+        <test-method signature="checkContentType()[pri:7, instance:com.employeepi.testcases.TC001_GetAllEmployees@2a693f59]" started-at="2024-01-12T12:34:19 AEDT" name="checkContentType" finished-at="2024-01-12T12:34:19 AEDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkContentType -->
+      </class> <!-- com.employeepi.testcases.TC001_GetAllEmployees -->
+      <class name="com.employeepi.testcases.TC005_DeleteEmployee">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeepi.testcases.TC005_DeleteEmployee@6b695b06]" started-at="2024-01-12T12:34:54 AEDT" name="setup" finished-at="2024-01-12T12:34:54 AEDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="deleteEmployee()[pri:0, instance:com.employeepi.testcases.TC005_DeleteEmployee@6b695b06]" started-at="2024-01-12T12:34:54 AEDT" name="deleteEmployee" finished-at="2024-01-12T12:35:06 AEDT" duration-ms="11386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteEmployee -->
+        <test-method is-config="true" signature="waitMethod()[pri:0, instance:com.employeepi.testcases.TC005_DeleteEmployee@6b695b06]" started-at="2024-01-12T12:35:06 AEDT" name="waitMethod" finished-at="2024-01-12T12:35:08 AEDT" duration-ms="2113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitMethod -->
+        <test-method signature="checkResponse()[pri:1, instance:com.employeepi.testcases.TC005_DeleteEmployee@6b695b06]" started-at="2024-01-12T12:35:08 AEDT" name="checkResponse" finished-at="2024-01-12T12:35:10 AEDT" duration-ms="2132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponse -->
+        <test-method is-config="true" signature="waitMethod()[pri:0, instance:com.employeepi.testcases.TC005_DeleteEmployee@6b695b06]" started-at="2024-01-12T12:35:10 AEDT" name="waitMethod" finished-at="2024-01-12T12:35:12 AEDT" duration-ms="2110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitMethod -->
+        <test-method signature="checkStatusCode()[pri:2, instance:com.employeepi.testcases.TC005_DeleteEmployee@6b695b06]" started-at="2024-01-12T12:35:12 AEDT" name="checkStatusCode" finished-at="2024-01-12T12:35:12 AEDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+      </class> <!-- com.employeepi.testcases.TC005_DeleteEmployee -->
+      <class name="com.employeepi.testcases.TC004_PutEmployee">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeepi.testcases.TC004_PutEmployee@4f32a3ad]" started-at="2024-01-12T12:34:40 AEDT" name="setup" finished-at="2024-01-12T12:34:40 AEDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="prerequitistePostEmployee()[pri:0, instance:com.employeepi.testcases.TC004_PutEmployee@4f32a3ad]" started-at="2024-01-12T12:34:40 AEDT" name="prerequitistePostEmployee" finished-at="2024-01-12T12:34:48 AEDT" duration-ms="7768" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequitistePostEmployee -->
+        <test-method is-config="true" signature="waitMethod()[pri:0, instance:com.employeepi.testcases.TC004_PutEmployee@4f32a3ad]" started-at="2024-01-12T12:34:48 AEDT" name="waitMethod" finished-at="2024-01-12T12:34:50 AEDT" duration-ms="2115" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitMethod -->
+        <test-method signature="checkResponseCode()[pri:1, instance:com.employeepi.testcases.TC004_PutEmployee@4f32a3ad]" started-at="2024-01-12T12:34:50 AEDT" name="checkResponseCode" finished-at="2024-01-12T12:34:50 AEDT" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseCode -->
+        <test-method is-config="true" signature="waitMethod()[pri:0, instance:com.employeepi.testcases.TC004_PutEmployee@4f32a3ad]" started-at="2024-01-12T12:34:50 AEDT" name="waitMethod" finished-at="2024-01-12T12:34:52 AEDT" duration-ms="2114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitMethod -->
+        <test-method signature="logAll()[pri:2, instance:com.employeepi.testcases.TC004_PutEmployee@4f32a3ad]" started-at="2024-01-12T12:34:52 AEDT" name="logAll" finished-at="2024-01-12T12:34:52 AEDT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logAll -->
+        <test-method is-config="true" signature="waitMethod()[pri:0, instance:com.employeepi.testcases.TC004_PutEmployee@4f32a3ad]" started-at="2024-01-12T12:34:52 AEDT" name="waitMethod" finished-at="2024-01-12T12:34:54 AEDT" duration-ms="2105" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitMethod -->
+        <test-method signature="verifyRecordSuccessfullyUpdated()[pri:3, instance:com.employeepi.testcases.TC004_PutEmployee@4f32a3ad]" started-at="2024-01-12T12:34:54 AEDT" name="verifyRecordSuccessfullyUpdated" finished-at="2024-01-12T12:34:54 AEDT" duration-ms="33" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRecordSuccessfullyUpdated -->
+      </class> <!-- com.employeepi.testcases.TC004_PutEmployee -->
+      <class name="com.employeepi.testcases.TC002_GetSingleEmployee">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.employeepi.testcases.TC002_GetSingleEmployee@52f27fbd]" started-at="2024-01-12T12:34:19 AEDT" name="setup" finished-at="2024-01-12T12:34:19 AEDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="prerequisiteGetSingleEmployee()[pri:0, instance:com.employeepi.testcases.TC002_GetSingleEmployee@52f27fbd]" started-at="2024-01-12T12:34:19 AEDT" name="prerequisiteGetSingleEmployee" finished-at="2024-01-12T12:34:22 AEDT" duration-ms="2272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- prerequisiteGetSingleEmployee -->
+        <test-method is-config="true" signature="waitMethod()[pri:0, instance:com.employeepi.testcases.TC002_GetSingleEmployee@52f27fbd]" started-at="2024-01-12T12:34:22 AEDT" name="waitMethod" finished-at="2024-01-12T12:34:24 AEDT" duration-ms="2111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitMethod -->
+        <test-method signature="checkResponseBody()[pri:1, instance:com.employeepi.testcases.TC002_GetSingleEmployee@52f27fbd]" started-at="2024-01-12T12:34:24 AEDT" name="checkResponseBody" finished-at="2024-01-12T12:34:24 AEDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseBody -->
+        <test-method is-config="true" signature="waitMethod()[pri:0, instance:com.employeepi.testcases.TC002_GetSingleEmployee@52f27fbd]" started-at="2024-01-12T12:34:24 AEDT" name="waitMethod" finished-at="2024-01-12T12:34:26 AEDT" duration-ms="2107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitMethod -->
+        <test-method signature="checkStatusCode()[pri:2, instance:com.employeepi.testcases.TC002_GetSingleEmployee@52f27fbd]" started-at="2024-01-12T12:34:26 AEDT" name="checkStatusCode" finished-at="2024-01-12T12:34:26 AEDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkStatusCode -->
+        <test-method is-config="true" signature="waitMethod()[pri:0, instance:com.employeepi.testcases.TC002_GetSingleEmployee@52f27fbd]" started-at="2024-01-12T12:34:26 AEDT" name="waitMethod" finished-at="2024-01-12T12:34:28 AEDT" duration-ms="2109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- waitMethod -->
+        <test-method signature="checkResponseTime()[pri:3, instance:com.employeepi.testcases.TC002_GetSingleEmployee@52f27fbd]" started-at="2024-01-12T12:34:28 AEDT" name="checkResponseTime" finished-at="2024-01-12T12:34:28 AEDT" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkResponseTime -->
+      </class> <!-- com.employeepi.testcases.TC002_GetSingleEmployee -->
+    </test> <!-- Regression1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
